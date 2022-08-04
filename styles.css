@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main { 
+    background-color: #eee;
+    margin: 50px 10px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
+
+#img-div {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 4rem;
+    padding-top: 30px;
+    text-align: center;
+}
+
+p {
+    font-weight: 700;
+    text-align: center;
+}
+
+#img-caption {
+    font-weight: 500;
+    margin: 15px 0 5px 0;
+    text-align: center;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#tribute-info {
+    padding: 15px;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li {
+    margin: 16px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: black;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+h2, h3 {
+    text-align: center;
+}
